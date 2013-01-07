@@ -1,0 +1,37 @@
+{
+  "name": "iefavorites",
+  "description": "Export favorites from internet explorer in the Favorites folder",
+  "version": "0.0.0",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/node-iefavorites.git"
+  },
+  "scripts": {
+    "test": "for f in tests/*.js; do echo \"$f\"; node \"tests/$f\" || exit 1; done; echo 'Passed!'; exit 0"
+  },
+  "dependencies": {
+    "netscape-bookmarks": "~0.0.0",
+    "urlfile": "~0.0.0",
+    "findit": "~0.1.2",
+    "posix-getopt": "~1.0.0"
+  },
+  "bin": {
+    "iefavorites": "./bin/iefavorites.js"
+  },
+  "preferGlobal": true,
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "ie",
+    "internet",
+    "internet explorer",
+    "favorites",
+    "url",
+    ".url"
+  ]
+}
