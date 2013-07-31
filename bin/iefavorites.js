@@ -78,7 +78,7 @@ favorites.forEach(function(favorite) {
     if (i === parts.length - 1) {
       cur.url = urlfile.parseURLFileSync(file);
     } else {
-      cur.contents = {};
+      cur.contents = cur.contents || {};
       cur = cur.contents;
     }
   });
