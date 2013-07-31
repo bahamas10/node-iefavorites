@@ -1,7 +1,7 @@
 {
   "name": "iefavorites",
   "description": "Export favorites from internet explorer in the Favorites folder",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
   "contributors": [],
   "repository": {
